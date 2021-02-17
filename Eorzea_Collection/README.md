@@ -43,7 +43,7 @@ On the same page, in the Add Custom CSS field, paste the code shown below.
 @\import "https://malscraper.azurewebsites.net/covers/auto/presets/dataimagelinkafter";
 @\import "https://murakumo-jp.github.io/MyAnimeList-CSS/Eorzea_Collection/Eorzea_Collection.css";
 ```
-Or for the mod:
+Or for the rough and WIP mod:
 
 ```css
 @\import "https://gitcdn.link/repo/Kev-9/MyAnimeList-CSS/master/Eorzea_Collection/Eorzea_Collection_temp-add-mod.css";

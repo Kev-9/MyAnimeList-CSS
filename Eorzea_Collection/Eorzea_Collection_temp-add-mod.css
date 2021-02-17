@@ -1,0 +1,242 @@
+:root {
+    --color: #415583;
+}
+
+.list-unit::after {
+    content: "Original theme by Edeon Vails & MurakumoJP";
+}
+
+.cover-block {
+    border-radius: 15px;
+}
+
+table.list-table {
+    border-radius: 15px;
+}
+
+.list-status-title {
+    border-radius: 15px;
+}
+
+.list-item {
+    border-radius: 15px;
+}
+
+.list-container
+    .list-unit
+    .list-table
+    .list-item
+    .list-table-data
+    .data.progress
+    .icon-add-episode,
+.list-container
+    .list-unit
+    .list-table
+    .list-item
+    .list-table-data
+    .data.progress
+    .icon-add-chapter,
+.list-container
+    .list-unit
+    .list-table
+    .list-item
+    .list-table-data
+    .data.progress
+    .icon-add-volume,
+.list-container
+    .list-unit
+    .list-table
+    .list-item
+    .list-table-data
+    .data.chapter
+    .icon-add-episode,
+.list-container
+    .list-unit
+    .list-table
+    .list-item
+    .list-table-data
+    .data.chapter
+    .icon-add-chapter,
+.list-container
+    .list-unit
+    .list-table
+    .list-item
+    .list-table-data
+    .data.chapter
+    .icon-add-volume,
+.list-container
+    .list-unit
+    .list-table
+    .list-item
+    .list-table-data
+    .data.volume
+    .icon-add-episode,
+.list-container
+    .list-unit
+    .list-table
+    .list-item
+    .list-table-data
+    .data.volume
+    .icon-add-chapter,
+.list-container
+    .list-unit
+    .list-table
+    .list-item
+    .list-table-data
+    .data.volume
+    .icon-add-volume {
+    border-left: 1px solid #415583 !important;
+}
+
+#advanced-options {
+    border-radius: 25px;
+}
+
+#advanced-options .filter-widget.title input[type="text"],
+#advanced-options select {
+    border-radius: 15px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .list-container .cover-block {
+        background-image: url("https://i.imgur.com/7OwHG5z.jpg") !important;
+    }
+
+    body {
+        background-color: #191b28 !important;
+    }
+
+    #status-menu a {
+        color: #fff;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .list-container .cover-block {
+        background-image: url("https://i.imgur.com/0hfuPRq.jpg") !important;
+    }
+
+    body {
+        background-color: #ddd !important;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #ddd;
+    }
+
+    .intitialize-tutorial:before {
+        background: #ddd;
+    }
+
+    .list-container .list-unit .list-table {
+        background: #fff;
+    }
+
+    #status-menu {
+        background: #fff;
+    }
+
+    #status-menu a {
+        color: var(--color);
+    }
+
+    .cover-block {
+        border-radius: 15px;
+    }
+
+    table.list-table {
+        border-radius: 15px;
+    }
+
+    .list-status-title {
+        background: #fff !important;
+        border-radius: 15px;
+    }
+
+    .list-item {
+        border-radius: 15px;
+        background-color: #000 !important;
+    }
+
+    .list-container
+        .list-unit
+        .list-table
+        .list-item
+        .list-table-data
+        .data.progress
+        .icon-add-episode,
+    .list-container
+        .list-unit
+        .list-table
+        .list-item
+        .list-table-data
+        .data.progress
+        .icon-add-chapter,
+    .list-container
+        .list-unit
+        .list-table
+        .list-item
+        .list-table-data
+        .data.progress
+        .icon-add-volume,
+    .list-container
+        .list-unit
+        .list-table
+        .list-item
+        .list-table-data
+        .data.chapter
+        .icon-add-episode,
+    .list-container
+        .list-unit
+        .list-table
+        .list-item
+        .list-table-data
+        .data.chapter
+        .icon-add-chapter,
+    .list-container
+        .list-unit
+        .list-table
+        .list-item
+        .list-table-data
+        .data.chapter
+        .icon-add-volume,
+    .list-container
+        .list-unit
+        .list-table
+        .list-item
+        .list-table-data
+        .data.volume
+        .icon-add-episode,
+    .list-container
+        .list-unit
+        .list-table
+        .list-item
+        .list-table-data
+        .data.volume
+        .icon-add-chapter,
+    .list-container
+        .list-unit
+        .list-table
+        .list-item
+        .list-table-data
+        .data.volume
+        .icon-add-volume {
+        border-left: 1px solid #415583 !important;
+    }
+
+    .list-unit::after {
+        background-color: #fff;
+    }
+
+    #advanced-options {
+        color: #415583 !important;
+        background-color: #fff !important;
+        border-radius: 25px;
+    }
+
+    #advanced-options .filter-widget.title input[type="text"],
+    #advanced-options select {
+        background-color: #ddd;
+        border-radius: 15px;
+    }
+}
